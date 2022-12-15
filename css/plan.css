@@ -1,0 +1,53 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  background-color: #07071A;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.banner1css{
+  background-image: url("../img/banner1.jpg");
+  background-color: #07071A;
+  background-attachment: fixed;
+  background-repeat:  no-repeat;
+  background-position-x:center;
+  background-size: 170rem;
+  font-family: "Lato", sans-serif;
+}
+.banner2css{
+  background-image: url("../img/banner2.png");
+  background-color: #07071A;
+  background-attachment: fixed;
+  background-repeat:  no-repeat;
+  background-position-x:center;
+  background-size: 170rem;
+  font-family: "Lato", sans-serif;
+}
+.planess{
+  height: 535px;
+  width:100%;
+  max-width: 375px;
+  margin: auto;
+  display: block;
+}
+
+footer {
+    background-color: #1E1E1E;
+    padding: 25px;
+}
+
+.carousel-inner img {
+     width: 100%; /* Set width to 100% */
+      margin: auto;
+    min-height:200px;
+}
+.sombra {text-shadow: 0.1em 0.1em 0.05em #333}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
