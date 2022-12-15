@@ -24,8 +24,8 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto" >
           <a class="nav-item nav-link" style="color: white;" href=""></a>
-          <a class="nav-item nav-link" style="color: white;" href="#info-one">Ejemplo1</a>
-          <a class="nav-item nav-link" style="color: white;" href="#info-2">Ejemplo2</a>
+          <a class="nav-item nav-link" style="color: white;" href="#info-one">Ejemplo codigo</a>
+          <a class="nav-item nav-link" style="color: white;" href="#info-2">Resultado</a>
         </div>
       </div>
     </nav>
@@ -37,14 +37,36 @@
           <div class="col-xs-12 col-md-6 col-sm-12">
             <div class="header-content-right">
               <br><br><br><br>
-              <h1 class="display-4 sombra">INTRODUCCION</h1>
-              <p class="mt-5">Con HTML DOM, JavaScript puede acceder y cambiar todos los elementos de un documento HTML.<br><br>Cuando se carga una página web, el navegador crea un modelo de objeto de documento de la página.El modelo HTML DOM se construye como un árbol de objetos :<br><br>Con el modelo de objetos, JavaScript obtiene todo el poder que necesita para crear HTML dinámico:</p>
+              <h1 class="display-4 sombra">Longitud de la lista de nodos HTML DOM</h1>
+              <p class="mt-5">La lengthpropiedad define el número de nodos en una lista de nodos:<br><br>
+                <b>myNodelist.length</b><br><br>
+                Donde La length propiedad es útil cuando desea recorrer los nodos en una lista de nodos
+                <h2>¡No es una matriz!</h2>
+
+                  Una lista de nodos puede parecer una matriz, pero no lo es.<br><br>
+
+                  Puede recorrer una NodeList y consultar sus nodos por índice.<br><br>
+
+                  Pero no puede usar métodos de matriz como push(), pop() o join() en una lista de nodos.
+              </p>
             </div>
           </div>
           <div class="col-xs-12 col-md-6 col-sm-12">
             <div class="header-content-right">
               <br><br><br><br>
-              <p class="mt-5">Con HTML DOM, JavaScript puede acceder y cambiar todos los elementos de un documento HTML.<br><br>Cuando se carga una página web, el navegador crea un modelo de objeto de documento de la página.El modelo HTML DOM se construye como un árbol de objetos :<br><br>Con el modelo de objetos, JavaScript obtiene todo el poder que necesita para crear HTML dinámico:</p>
+              <h2>Diferen Collection Nodelist</h2>
+              <p class="mt-5">
+                 <ul>
+                 <li>El una lista de nodos y una colección de HTML son prácticamente lo mismo.</li>
+                 <li>Ambos son colecciones tipo matriz (listas) de nodos (elementos) extraídos de un documento. Se puede acceder a los nodos por números de índice. El índice comienza en 0.</li>
+                 <li>Ambos tienen una propiedad de longitud que devuelve el número de elementos de la lista (colección).</li>
+                 <li>Una HTMLCollection es una colección de elementos de documento .</li>
+                 <li>Una lista de nodos es una colección de nodos de documentos (nodos de elementos, nodos de atributos y nodos de texto).</li>
+                 <li>Se puede acceder a los elementos de HTMLCollection por su nombre, identificación o número de índice.</li>
+                 <li>Solo se puede acceder a los elementos de NodeList por su número de índice.</li>
+                 <li>Una HTMLCollection es siempre una colección en vivo . Ejemplo: si agrega un elemento a una lista en el DOM, la lista en HTMLCollection también cambiará.</li>
+              </ul>
+              </p>
             </div>
           </div>
         </div>
@@ -63,14 +85,16 @@
         <div class="row">
           <div class="col-xs-12 col-md-6 col-sm-12">
             <div class="header-content-left">
-              <img src="../img/imagen1.png" style="width: 100%;margin-top: 30px;">
+              <img src="../img/Ejemplo10.png" style="width: 100%;margin-top: 30px;">
             </div>  
           </div>
           <div class="col-xs-12 col-md-6 col-sm-12">
             <div class="header-content-right">
               <br><br><br><br>
-              <h1 class="display-4 sombra">EJEMPLO 1</h1>
-              <p class="mt-5">Con HTML DOM, JavaScript puede acceder y cambiar todos los elementos de un documento HTML.<br><br>Cuando se carga una página web, el navegador crea un modelo de objeto de documento de la página.El modelo HTML DOM se construye como un árbol de objetos :<br><br>Con el modelo de objetos, JavaScript obtiene todo el poder que necesita para crear HTML dinámico:</p>
+              <h1 class="display-4 sombra">EJEMPLO Codigo</h1>
+              <p class="mt-5">Donde se puede acceder a los elementos de NodeList mediante un  número de índice.<br>
+
+              Para acceder al segundo nodo p puedes escribir:</p>
 
             </div>
           </div>
@@ -82,14 +106,14 @@
         <div class="row">
           <div class="col-xs-12 col-md-6 col-sm-12">
             <div class="header-content-left">
-              <img src="../img/imagen1.png" style="width: 100%;margin-top: 30px;">
+              <img src="../img/Ejemplo11.png" style="width: 100%;margin-top: 30px;">
             </div>  
           </div>
           <div class="col-xs-12 col-md-6 col-sm-12">
             <div class="header-content-right">
               <br><br><br><br>
-              <h1 class="display-4 sombra">EJEMPLO 2</h1>
-              <p class="mt-5">Con HTML DOM, JavaScript puede acceder y cambiar todos los elementos de un documento HTML.<br><br>Cuando se carga una página web, el navegador crea un modelo de objeto de documento de la página.El modelo HTML DOM se construye como un árbol de objetos :<br><br>Con el modelo de objetos, JavaScript obtiene todo el poder que necesita para crear HTML dinámico:</p>
+              <h1 class="display-4 sombra">Resultado</h1>
+              <p class="mt-5">Como se puede observar obtenemos el resultado del codigo que es una lista creada con el arreglo y la funcion NodeList que nos ayuda arrojar una lista</p>
 
             </div>
           </div>
@@ -97,6 +121,12 @@
       </div>
     </section>
 
+<section id="testimonial2">
+      <div class="container">
+        <p class="h2 mb-2 sombra">
+        </p>
+      </div>
+    </section>
 
 
 
